@@ -1,6 +1,6 @@
 # Resultado Execução HelloTriangle
 
-![Imagem do HelloTriangle](/content/picture.png)
+![Imagem do HelloTriangle](./content/picture.png)
 
 ## Observações:
 - Tive alguns erros ao executar em um ambiente MACOS, mas segui o tutorial desse vídeo aqui, e foi possível executar: https://www.youtube.com/watch?v=7-dL6a5_B3I
