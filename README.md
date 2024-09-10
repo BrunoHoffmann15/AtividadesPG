@@ -7,3 +7,7 @@ Execução do projeto `HelloTriangle`, o projeto está localizado na pasta `/ati
 
 - Os resultados da execução foram registrados em: [RESULT.md](/atividade_1-HelloTriangle/RESULT.md).
 - A atividade foi executada em um ambiente MACOS, então algumas alterações foram necessárias para executar a mesma, essas estão documentadas no documento: [RESULT.md](/atividade_1-HelloTriangle/RESULT.md).
+
+## Lista 1
+
+Os resultados da lista 1, assim como as respostas foram registradas no [./atividade_1-Lista1/Respostas.md](./atividade_1-Lista1/Respostas.md).
