@@ -91,3 +91,11 @@ O código referente a questão 6A localiza-se no caminho [Questão 6A](./exercic
 O código referente a questão 6A localiza-se no caminho [Questão 6B](./exercicio6b.cpp). E o desenho gerado após a execução foi esse:
 
 ![Imagem do exercício 6-b](./content/exercicio6b.png)
+
+O código referente a questão 6C localiza-se no caminho [Questão 6C](./exercicio6c.cpp). E o desenho gerado após a execução foi esse:
+
+![Imagem do exercício 6-c](./content/exercicio6c.png)
+
+O código referente a questão 6C localiza-se no caminho [Questão 6D](./exercicio6d.cpp). E o desenho gerado após a execução foi esse:
+
+![Imagem do exercício 6-d](./content/exercicio6d.png)
