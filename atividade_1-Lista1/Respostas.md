@@ -43,7 +43,7 @@ A relação dos três é dada da seguinte forma: o VBO terá as informações de
 
 ## Questão 5
 
-**Pergunta: ** Faça o desenho de 2 triângulos na tela. Desenhe eles:
+**Pergunta:** Faça o desenho de 2 triângulos na tela. Desenhe eles:
 - a. Apenas com o polígono preenchido;
 - b. Apenas com contorno;
 - c. Apenas como pontos;
@@ -66,3 +66,28 @@ O código referente a questão C localiza-se no caminho [Questão C](./exercicio
 O código referente a questão D localiza-se no caminho [Questão D](./exercicio5d.cpp). E o desenho gerado após a execução foi esse:
 
 ![Imagem do exercício 5-D](./content/exercicio5d.png)
+
+## Questão 6
+
+**Pergunta:** Faça o desenho de um círculo na tela, utilizando a equação paramétrica do círculo para
+gerar os vértices. Depois disso:
+
+- a) Desenhe um octágono
+- b) Desenhe um pentágono
+- c) Desenhe um pac-man!
+- d) Desenhe uma fatia de pizza
+- e) DESAFIO: desenhe uma “estrela”
+
+**Resposta:**
+
+O código referente a questão 6 (círculo) localiza-se no caminho [Questão 6A](./exercicio6.cpp). E o desenho gerado após a execução foi esse:
+
+![Imagem do círculo](./content/exercicio6.png)
+
+O código referente a questão 6A localiza-se no caminho [Questão 6A](./exercicio6a.cpp). E o desenho gerado após a execução foi esse:
+
+![Imagem do exercício 6-a](./content/exercicio6a.png)
+
+O código referente a questão 6A localiza-se no caminho [Questão 6B](./exercicio6b.cpp). E o desenho gerado após a execução foi esse:
+
+![Imagem do exercício 6-b](./content/exercicio6b.png)
