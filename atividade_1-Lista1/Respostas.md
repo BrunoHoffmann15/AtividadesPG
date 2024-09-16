@@ -200,3 +200,21 @@ const GLchar *fragmentShaderSource = "#version 400\n"
 A implementação está localizada no arquivo [Questão 8](./exercicio8.cpp). E foi possível gerar a seguinte imagem ao executar o programa:
 
 ![Exercício 8](./content/exercicio8.png)
+
+## Questão 9
+
+**Questão:** Faça um desenho em um papel quadriculado (pode ser no computador mesmo) e
+reproduza-o utilizando primitivas em OpenGL. Neste exercício você poderá criar mais de um
+VAO e fazer mais de uma chamada de desenho para poder utilizar primitivas diferentes, se
+necessário.
+
+**Resposta:**
+
+A figura escolhida foi a abaixo:
+
+![Exercício 9 - Desenho](./content/exercicio9_desenho.png)
+
+O código para realização da imagem acima está localizado no arquivo [Questão 9](./exercicio9.cpp). E a foto abaixa foi gerada como saída da execução do código:
+
+![Exercício 9 - Resultado](./content/exercicio9_resultado.png)
+
