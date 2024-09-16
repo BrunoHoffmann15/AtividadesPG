@@ -119,3 +119,84 @@ respectivamente com as cores vermelho, verde e azul.
 representá-lo.
 
 - b. Como estes atributos seriam identificados no vertex shader?
+
+**Resposta:**
+
+Exercício A:
+
+- O código referente ao VBO:
+
+```c++
+  GLfloat vertices[] = {
+			0.0, 0.6, 0.0, 1.0, 0.0, 0.0,	 // P1
+			-0.6, -0.6, 0.0, 0.0, 1.0, 0.0, // P2
+			0.6, -0.3, 0.0, 0.0, 0.0, 1.0	 // P3
+	};
+
+	GLuint VBO;
+
+	glGenBuffers(1, &VBO);
+	glBindBuffer(GL_ARRAY_BUFFER, VBO);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+```
+
+- O código referente ao VAO:
+
+```c++
+  GLuint VAO;
+
+  glGenVertexArrays(1, &VAO);
+  glBindVertexArray(VAO);
+
+  glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (GLvoid *)0);
+  glEnableVertexAttribArray(0);
+
+  glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (GLvoid *)(3 * sizeof(GLfloat)));
+  glEnableVertexAttribArray(1);
+
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+  glBindVertexArray(0);
+```
+
+
+- O código referente ao EBO:
+
+```c++
+  GLuint EBO;
+  unsigned int indices[] = {0, 1, 2};
+
+	glGenBuffers(1, &EBO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+```
+
+Exercício B:
+
+O código referente aos Shaders:
+
+```c++
+// Código fonte do Vertex Shader (em GLSL): ainda hardcoded
+const GLchar *vertexShaderSource = "#version 400\n"
+																	 "layout (location = 0) in vec3 position;\n"
+																	 "layout (location = 1) in vec3 color;\n"
+																	 "out vec3 vertexColor;\n"
+																	 "void main()\n"
+																	 "{\n"
+																	 //...pode ter mais linhas de código aqui!
+																	 "gl_Position = vec4(position.x, position.y, position.z, 1.0);\n"
+																	 "vertexColor = color;\n"
+																	 "}\0";
+
+// Códifo fonte do Fragment Shader (em GLSL): ainda hardcoded
+const GLchar *fragmentShaderSource = "#version 400\n"
+																		 "in vec3 vertexColor;\n"
+																		 "out vec4 color;\n"
+																		 "void main()\n"
+																		 "{\n"
+																		 "color = vec4(vertexColor, 1.0);\n"
+																		 "}\n\0";
+```
+
+A implementação está localizada no arquivo [Questão 8](./exercicio8.cpp). E foi possível gerar a seguinte imagem ao executar o programa:
+
+![Exercício 8](./content/exercicio8.png)
