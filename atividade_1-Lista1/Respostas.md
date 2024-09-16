@@ -99,3 +99,23 @@ O código referente a questão 6C localiza-se no caminho [Questão 6C](./exercic
 O código referente a questão 6C localiza-se no caminho [Questão 6D](./exercicio6d.cpp). E o desenho gerado após a execução foi esse:
 
 ![Imagem do exercício 6-d](./content/exercicio6d.png)
+
+## Questão 7
+
+**Questão:** Desenhe uma espiral.
+
+**Resposta:**
+
+O código referente a questão 7 localiza-se no caminho [Questão 7](./exercicio7.cpp). E o desenho gerado após a execução foi esse:
+
+![Imagem do exercício 7](./content/exercicio7.png)
+
+## Questão 8
+
+**Questão:** Considerando o seguinte triângulo abaixo, formado pelos vértices P1, P2 e P3,
+respectivamente com as cores vermelho, verde e azul. 
+
+- a. Descreva uma possível configuração dos buffers (VBO, VAO e EBO) para
+representá-lo.
+
+- b. Como estes atributos seriam identificados no vertex shader?
