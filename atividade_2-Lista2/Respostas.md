@@ -32,3 +32,20 @@ quando posicionamos os objetos? Por que é útil essa configuração?
 
 ![Resposta 3](./content/exercicio3.png)
 
+## Questão 4
+
+**Questão:** Modifique o viewport para desenhar a cena apenas no seguinte quadrante da janela
+da aplicação.
+
+**Resposta:** Foi feita a modificação da viewport, conjunto com a alteração da escala e a transladação do triângulo. A partir disso, chegou-se a figura a abaixo. O código que realiza as mudanças se localiza [./exercicio4.cpp](./exercicio4.cpp).
+
+
+![Exercício 4](./content/exercicio4.png)
+
+## Questão 5
+
+**Questão:** Agora, desenhe a mesma cena nos 4 quadrantes.
+
+**Resposta:** Foi feita a modificação da viewport, conjunto com a alteração da escala e a transladação do triângulo. A partir disso, chegou-se a figura a abaixo. O código que realiza as mudanças se localiza [./exercicio5.cpp](./exercicio5.cpp).
+
+![Resposta 5](./content/exercício5.png)

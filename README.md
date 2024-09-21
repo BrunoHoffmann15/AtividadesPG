@@ -11,3 +11,7 @@ Execução do projeto `HelloTriangle`, o projeto está localizado na pasta `/ati
 ## Lista 1
 
 Os resultados da lista 1, assim como as respostas foram registradas no [./atividade_1-Lista1/Respostas.md](./atividade_1-Lista1/Respostas.md).
+
+## Lista 2
+
+Os resultados da lista 2, assim como as respostas foram registradas no [./atividade_2-Lista2/Respostas.md](./atividade_2-Lista2/Respostas.md).
